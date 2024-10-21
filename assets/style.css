@@ -32,10 +32,18 @@ footer p{
     border-radius: 0.8rem;
 
 }
+.cartao:hover  .cartao-conteudo{
+    transform: rotateY(180deg);
+}
+
 .cartao-conteudo{
     text-align: center;
     height: 100%;
     padding: 20px;
+    transform-style: preserve-3d;
+    transition: transform 500ms ease-in-out;
+
+
 
 }
 .cartao-conteudo   h3{
@@ -46,11 +54,18 @@ footer p{
     position: absolute;
     font-size: 1vw;
     margin: 0.6rem;
+    backface-visibility: hidden;
 
 }
 .cartao-conteudo-pergunta{
     color: var(--cor-de-texto);
     font-weight: 500
 }
+.cartao-conteudo-pergunta,
+.cartao-conteudo-resposta{
+    backface-visibility: hidden;
+}
 
-
+.cartao-conteudo-resposta{
+    transform: rotateY(180deg);
+}
