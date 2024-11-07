@@ -17,4 +17,4 @@ function criaCartao(tema,pergunta,resposta){
     
 }
 criaCartao('Historia','Em que ano iniciou  a guerra do Vietnã?','Em 1955')
-criaCartao('portugues', 'o que e paraxiona?','uma paroxitona e uma palavracuja silaba tonica e a penultima.')
+criaCartao('Portugues', 'O que é paraxitona?','Uma paroxitona e uma palavra cuja silaba tonica é a penultima.')

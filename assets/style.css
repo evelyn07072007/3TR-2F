@@ -5,6 +5,14 @@
     margin: 0;
     padding:0;
 }
+
+:root{
+    --cor-do-texto:
+    --cor-cartao-frente:
+    --cor-cartao-verso: #00F4BF
+
+}
+
 body{
     background: url(img/bg-desktop.webp);
 
@@ -43,6 +51,7 @@ footer p{
     padding: 20px;
     transform-style: preserve-3d;
     transition: transform 500ms ease-in-out;
+    
 
 
 
@@ -59,9 +68,13 @@ footer p{
 
 }
 .cartao-conteudo-pergunta{
+    padding-top: 70px;
     color: var(--cor-de-texto);
-    font-weight: 500
+    font-weight: 500px
 }
+
+
+
 .cartao-conteudo-pergunta,
 .cartao-conteudo-resposta{
     backface-visibility: hidden;
@@ -69,4 +82,5 @@ footer p{
 
 .cartao-conteudo-resposta{
     transform: rotateY(180deg);
+    color: blueviolet;
 }
